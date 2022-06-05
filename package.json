@@ -2,6 +2,9 @@
   "name": "online-store-app",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
